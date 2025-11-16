@@ -1,0 +1,12 @@
+:root{--max-width:980px}
+*{box-sizing:border-box}
+body{font-family:system-ui, -apple-system, "Yu Gothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;line-height:1.6;margin:0;color:#222}
+.inner{max-width:var(--max-width);margin:0 auto;padding:24px}
+.site-header{background:#0a74da;color:#fff;padding:32px 0}
+.site-header h1{margin:0;font-size:1.4rem}
+#works .work{border:1px solid #e6e6e6;padding:16px;margin-bottom:12px;border-radius:6px}
+.btn{display:inline-block;padding:8px 12px;background:#0a74da;color:#fff;border-radius:4px;text-decoration:none}
+@media(max-width:600px){
+  .inner{padding:16px}
+  .site-header h1{font-size:1.1rem}
+}
